@@ -17,7 +17,7 @@
 			<hint>Enter the action to be taken</hint>
 		</point>
 		<code language="Delphi" delimiter="|">
-			<![CDATA[{ TODO -oVasilyevSM -c|Category|: |ActionItem|}|end|]]>
+			<![CDATA[{ TODO -oVasilyevSM -c|Category|: |ActionItem| }|end|]]>
 		</code>
 	</template>
 </codetemplate>
