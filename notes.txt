@@ -2,14 +2,7 @@ GetRid точно выстрелит
 
 Названия
 
+!!!LiberSynth!!!
+
 LiberCore
-Liberium - нет. Есть русская группа такая
-LibErus
-Liberius
-LiberAim
 LiberGate
-LiberBlob
-liberstack
-liberux
-liberix
-liberdude
