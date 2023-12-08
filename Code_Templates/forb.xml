@@ -40,9 +40,7 @@
       DeclareVariable(|index|);
     </script>
     <code language="Delphi" context="methodbody" delimiter="|"><![CDATA[for |index| := |val| to |count| - 1 do
-begin
 |selected||*||end|
-end;
 ]]>
     </code>
   </template>
