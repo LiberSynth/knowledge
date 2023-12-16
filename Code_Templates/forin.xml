@@ -7,17 +7,11 @@
       ValidateForTemplate;
     </script>
     <point name="ident">
-      <text>
-      MyElem
-      </text>
       <hint>
         collection element iterator variable
       </hint>
     </point>
     <point name="collection">
-      <text>
-        MyList
-      </text>
       <hint>
         collection to iterate
       </hint>
@@ -32,7 +26,7 @@
       DeclareVariable(|ident|);
     </script>
     <code language="Delphi" context="methodbody" delimiter="|"><![CDATA[for |ident| in |collection| do
-|selected||*||end|
+|*||selected||end|
 ]]>
     </code>
   </template>
