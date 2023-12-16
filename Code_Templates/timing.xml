@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<codetemplate  xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+        version="1.0.0">
+  <template name="tc" surround="false" invoke="manual">
+    <script language="Delphi" onenter="false" onleave="false" onvalidate="true">
+      ValidateForTemplate;
+    </script>
+    <point name="value">
+      <text>
+      TC
+      </text>
+      <hint>
+        timer
+      </hint>
+    </point>
+    <description>
+      time meter
+    </description>
+    <author>
+      VasilyevSM
+    </author>
+    <script language="Delphi" onenter="false" onleave="true">
+      DeclareVariable(|value|);
+    </script>
+    <code language="Delphi" context="methodbody" delimiter="|"><![CDATA[
+|value| := GetTickCount;
+|value| := GetTickCount - |value|;
+|end|
+]]>
+    </code>
+  </template>
+</codetemplate>
